@@ -53,13 +53,14 @@ In this step, we will setup our project and create an [Azure Function](https://d
 
 -   Sign up for a [free Azure account](https://azure.microsoft.com/en-us/free/?WT.mc_id=azuretweetmigration-github-ayyonet)
 
-*   Select Azure Extensions from VS Code left hand panel.
 
-*   Select Functions grouping, click on folder icon on the Functions grouping to create a new project. Select a folder or create a new folder for your project repository.
+*   Select Azure Extensions from VS Code [left hand panel](/images/azureToolbar.png).
+
+*   Select [Functions grouping](/images/functionsRepos.png), click on folder icon on the Functions grouping to create a new project. Select a folder or create a new folder for your project repository.
 
 *   To create a function select the second icon on the Functions grouping.
 
-*   You will be prompted to sign in if you have [Azure Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-node-azure-pack?WT.mc_id=azuretweetmigration-github-ayyonet) or [Azure Repos](https://marketplace.visualstudio.com/items?itemName=ms-vsts.team?WT.mc_id=azuretweetmigration-github-ayyonet) extension.
+*   You will be prompted to sign in if you have [Azure Tools](https://docs.microsoft.com/azure/azure-functions/functions-run-local?WT.mc_id=azuretweetmigration-github-ayyonet) or [Azure Repos](https://github.com/Microsoft/azure-repos-vscode/blob/master/TFVC_README.md?WT.mc_id=azuretweetmigration-github-ayyonet#quick-start) extensions.
 
 *   When prompted, name your function "SearchTweets". Language "TypeScript".
 
