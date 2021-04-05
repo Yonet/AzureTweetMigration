@@ -41,17 +41,17 @@ npm run start
 
 ## [Step-0](https://github.com/Yonet/AzureTweetMigration/tree/step-0)
 
-In this step, we will setup our project and create an [Azure Function](https://docs.microsoft.com/azure/azure-functions/?WT.mc_id=azuretweetmigration-github-ayyonet) to get [Twitter Search](https://developer.twitter.com/en/docs.html) data into our application. You can follow the below steps or check out "step-0" branch of this repo.
+In this step, we will setup our project and create an [Azure Function](https://docs.microsoft.com/azure/azure-functions/?WT.mc_id=aiml-0000-ayyonet) to get [Twitter Search](https://developer.twitter.com/en/docs.html) data into our application. You can follow the below steps or check out "step-0" branch of this repo.
 
 -   Download
 
 *   [Node.js latest LTS version](https://nodejs.org/en/download/). Latest Node is not compatible with the tools we are using and not recommended for most users.
 
-*   [Visual Studio Code 2019](https://visualstudio.microsoft.com/downloads/?WT.mc_id=azuretweetmigration-github-ayyonet)
+*   [Visual Studio Code 2019](https://visualstudio.microsoft.com/downloads/?WT.mc_id=aiml-0000-ayyonet)
 
-*   [Visual Studio Code Azure Extensions](https://docs.microsoft.com/azure/azure-functions/functions-run-local?WT.mc_id=azuretweetmigration-github-ayyonet) or [Azure Functions Extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions&WT.mc_id=azuretweetmigration-github-ayyonet)
+*   [Visual Studio Code Azure Extensions](https://docs.microsoft.com/azure/azure-functions/functions-run-local?WT.mc_id=aiml-0000-ayyonet) or [Azure Functions Extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions&WT.mc_id=aiml-0000-ayyonet)
 
--   Sign up for a [free Azure account](https://azure.microsoft.com/en-us/free/?WT.mc_id=azuretweetmigration-github-ayyonet)
+-   Sign up for a [free Azure account](https://azure.microsoft.com/free/?WT.mc_id=aiml-0000-ayyonet)
 
 
 *   Select Azure Extensions from VS Code [left hand panel](/images/azureToolbar.png).
@@ -60,13 +60,13 @@ In this step, we will setup our project and create an [Azure Function](https://d
 
 *   To create a function select the second icon on the Functions grouping.
 
-*   You will be prompted to sign in if you have [Azure Tools](https://docs.microsoft.com/azure/azure-functions/functions-run-local?WT.mc_id=azuretweetmigration-github-ayyonet) or [Azure Repos](https://github.com/Microsoft/azure-repos-vscode/blob/master/TFVC_README.md?WT.mc_id=azuretweetmigration-github-ayyonet#quick-start) extensions.
+*   You will be prompted to sign in if you have [Azure Tools](https://docs.microsoft.com/azure/azure-functions/functions-run-local?WT.mc_id=aiml-0000-ayyonet) or [Azure Repos](https://github.com/Microsoft/azure-repos-vscode/blob/master/TFVC_README.md?WT.mc_id=azuretweetmigration-github-ayyonet#quick-start) extensions.
 
 *   When prompted, name your function "SearchTweets". Language "TypeScript".
 
 *   When prompted, select "Anonymous". This will make our API public.
 
-*   [Azure Functions Extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions&WT.mc_id=azuretweetmigration-github-ayyonet) will create our initial configuration files as well as SearchTweet folder with our first Azure function.
+*   [Azure Functions Extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions&WT.mc_id=aiml-0000-ayyonet) will create our initial configuration files as well as SearchTweet folder with our first Azure function.
 
 *   To run the code you can open up the internal terminal from the Command Palette (⇧⌘P), use the View: Toggle Integrated Terminal command.
 
